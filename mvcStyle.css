@@ -74,4 +74,18 @@
 }
 .giving {
     text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 60%;
+}
+
+.giving-table {
+    width: 100%;
+    height: 30%;
+}
+
+.giving-box {
+    color: whitesmoke;
+    background-color: #3d95ce;
+    border: solid black;
 }
