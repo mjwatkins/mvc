@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+
+.bar-image {
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+
+.navBar  {
+    top: 0;
+    left:0;
+    z-index: 1;
+    height: 5%;
+    width: 100%;
+    background-color: rgb(202, 201, 201);
+    position: fixed;
+    opacity: 1;
+}
+
+.nav-table {
+    border: 2px solid;
+    border-color: black;
+    width: inherit;
+    height: 100%;
+}
+
+.nav-table-th {
+    width: 16%;
+    color: green;
+}
+
+.main-window {
+    margin-top: 5%;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 20pt;
+}
+
+.services {
+    border: px solid;
+    border-color: black;
+    border-width: 3px;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-table {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(202, 201, 201);
+    color: green;
+    border: thin solid black;
+}
+
+.contact-row {
+    width: 100%;
+    border: thin solid black;
+    font-size: 16pt;
+}
+
+.contact-cell {
+    width: 30%;
+    color: green;
+    border: thin solid black;
+    font-size: 16pt;
+}
+
+.link {
+    text-align: center;
+    background-color: rgb(202, 201, 201);
+    color: green;
+    border: thin solid black;
+}
+.giving {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 60%;
+}
+
+.giving-table {
+    width: 100%;
+    height: 30%;
+}
+
+.giving-box {
+    color: whitesmoke;
+    background-color: #3d95ce;
+    border: solid black;
+}
