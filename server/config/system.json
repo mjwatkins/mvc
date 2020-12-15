@@ -1,0 +1,10 @@
+{
+  "appServer": {
+    "host": "0.0.0.0",
+    "port": "3000",
+    "secure_port":"3500",
+    "jwt_secret": null,
+    "timeOut": 10000,
+    "maxListeners": 20
+  }
+}
