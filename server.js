@@ -28,16 +28,6 @@ const server = {
   port: appConfig.port
 };
 
-const serverSecure = {
-  server: https.createServer(app),
-  port: appConfig.secure_port
-}
-
-// const port = appConfig.port;
-// const server = http.createServer(app);
-// const portSecure = appConfig.secure_port;
-// const serverSecure = https.createServer(app);
-
 // error handlers
 app.use(function (req, res, next) {
   const err = new Error('Not Found');
@@ -56,13 +46,7 @@ app.use(function (err, req, res, next) {
 });
 
 // Start Express Server
-server.server.listen(server.port, appConfig.host, () => {
+server.server.listen(process.env.port || server.port, appConfig.host, () => {
   console.log(`Server running on http://${server.server.address().address}:${server.port}`);
 });
-
-// Start Secure Express Server
-serverSecure.server.listen(serverSecure.port, appConfig.host, () => {
-  console.log(`Server running on https://${serverSecure.server.address().address}:${serverSecure.port}`);
-});
-
 
