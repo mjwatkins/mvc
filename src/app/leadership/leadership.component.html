@@ -1,30 +1,43 @@
-<div id= "contacts" class="contact-table">
-    <h1>Leadership:</h1>
-    <table class="contact-table">
-        <tr class="contact-row">
+<!-- <div id= "contacts" class=""> -->
+    <h3>Leadership</h3>
+    <table class="table table-striped">
+        <!-- <tr class="">
             <th> Name </th> 
             <th> Phone</th>
             <th> Email</th>
         </tr>
-        <tr class="contact-row">
+        <tr class="">
             <td> Brian Hinkle </td>
             <td> 301-980-4712 </td>
             <td> BDHink@gmail.com </td>
         </tr>
-        <tr class="contact-row">
+        <tr class="">
             <td> Lauren Hinkle </td>
             <td> 301-980-4815 </td>
             <td> RLNicUNurse@gmail.com </td>
         </tr>
-        <tr class="contact-row">
+        <tr class="">
             <td> Doug Phebus</td>
             <td> 937-554-6001</td>
         </tr>
-        <tr class="contact-row">
+        <tr class="">
             <td> Michelle Phebus</td>
             <td>937-305-3081</td>
         </tr>
 
-    </table>       
-</div>
+    </table>    -->
+    
+    <table class="table table-striped">
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+        <tr *ngFor="let datum of data">
+            <td>{{datum.name}}</td>
+            <td>{{datum.phone}}</td>
+            <td>{{datum.email}}</td>
+        </tr>
+    </table>
+<!-- </div> -->
 
