@@ -6,11 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./leadership.component.scss']
 })
 export class LeadershipComponent implements OnInit {
-  public data: any[];
+  data: any[];
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
     this.data = [
       {
         name: "Brian Hinkle",
@@ -31,6 +29,10 @@ export class LeadershipComponent implements OnInit {
         phone: "937-305-3081",
       }
     ];
+  }
+
+  ngOnInit(): void {
+
   }
 
 }
