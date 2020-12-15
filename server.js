@@ -46,7 +46,7 @@ app.use(function (err, req, res, next) {
 });
 
 // Start Express Server
-server.server.listen(process.env.port || server.port, appConfig.host, () => {
-  console.log(`Server running on http://${server.server.address().address}:${server.port}`);
+server.server.listen(process.env.PORT || server.port, appConfig.host, () => {
+  console.log(`Server running on http://${server.server.address().address}:${process.env.PORT || server.port}`);
 });
 
