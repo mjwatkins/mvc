@@ -1,17 +1,21 @@
-<h3>Leadership</h3>
+<h3 id="contacts">Leadership</h3>
 <div class="row justify-content-center justify-content-md-center">
     <div class="col-6">
         <table class="table table-striped">
-            <tr>
-                <th>Name</th>
-                <th>Phone</th>
-                <th>Email</th>
-            </tr>
-            <tr *ngFor="let datum of data">
-                <td>{{datum.name}}</td>
-                <td>{{datum.phone}}</td>
-                <td>{{datum.email}}</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let datum of data">
+                    <td>{{datum.name}}</td>
+                    <td>{{datum.phone}}</td>
+                    <td>{{datum.email}}</td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </div>
