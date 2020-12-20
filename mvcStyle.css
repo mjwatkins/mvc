@@ -89,3 +89,8 @@
     background-color: #3d95ce;
     border: solid black;
 }
+
+.calendar-box {
+    width: 50%;
+    padding: 2%;
+}
