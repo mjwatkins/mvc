@@ -97,3 +97,17 @@
     padding-left: 25%;
     padding-right: 25%;
 }
+
+.alert-box {
+  padding: 20px;
+  background-color: #cc3300;
+  color: white;
+  border-radius: 5px;
+  border: groove;
+  top: 5%;
+  left:0;
+  z-index: 1;
+  height: 5%;
+  width: 100%;
+  position: fixed;
+}
