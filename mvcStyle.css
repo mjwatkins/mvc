@@ -9,7 +9,7 @@
     top: 0;
     left:0;
     z-index: 1;
-    height: 2%;
+    height: 5%;
     width: 100%;
     background-color: rgb(202, 201, 201);
     position: fixed;
@@ -107,7 +107,7 @@
   top: 5%;
   left:0;
   z-index: 1;
-  height: 3%;
+  height: auto;
   width: 100%;
   position: fixed;
   text-align: center;
