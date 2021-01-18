@@ -114,5 +114,5 @@
 }
 
 .alert-dismiss {
-   float: right; 
+   text-decoration: underline;
 }
