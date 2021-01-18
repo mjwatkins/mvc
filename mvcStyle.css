@@ -112,3 +112,7 @@
   position: fixed;
   text-align: center;
 }
+
+.alert-dismiss {
+   float: right; 
+}
