@@ -5,7 +5,7 @@
     position: relative;
 }
 
-.nav-bar  {
+.mvc-nav-bar  {
     top: 0;
     left:0;
     z-index: 1;
@@ -27,6 +27,11 @@
 .nav-table-th {
     width: 12.5%;
     color: green;
+}
+
+.center-text {
+	text-align: center;
+	content-align: center;
 }
 
 .main-window {
